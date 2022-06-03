@@ -23,9 +23,14 @@ const dataBelanjaan = [
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
 const listBelanjaan = (dataBelanjaan) => {
   return dataBelanjaan.map((data) => {
-    return `${data.nama}  ${data.kuantitas} x Rp. ${data.harga}`;
+    return `- ${data.nama} x ${data.kuantitas}`;
   });
 }
+// const listBelanjaans = (dataBelanjaan) => {
+//   for(const data of dataBelanjaan){
+//     console.log(`${data.nama}  ${data.kuantitas} x Rp. ${data.harga}`);
+//   }
+// }
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
 // const totalBelanjaan = (dataBelanjaan) => {
 //  let total = 0;
